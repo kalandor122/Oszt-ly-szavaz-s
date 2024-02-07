@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import pymongo
 
 
-myclient = pymongo.MongoClient("mongodb+srv://fuvesimago:nHcOt81rjGk9H9cg@cluster0.rk3y5pv.mongodb.net/?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient() #add your own
 nyolcb = [3563, 3659, 7552, 8738, 7729, 8516, 7680, 7857, 2804, 8565, 7768, 7541, 3076, 8218, 7963, 5377]
 nyolca = []
 hetb = []
